@@ -230,29 +230,3 @@ public class acad {
 	}
 	}
 
-				 /*Question 8*/
-import java.util.*;
-public class acad {
-
-	public static void main(String[] args) {
-		Scanner ss = new Scanner(System.in);
-		System.out.println("Input the size of an array");
-		int a=ss.nextInt();//Size of an array
-		ArrayList<Integer> d = new ArrayList<Integer>(a);//integer array declared
-		System.out.println("Enter the elements of the array");
-		for(int i=0;i<a;i++)
-		{
-			d.add(ss.nextInt()); //elements to be stored in an array
-			
-			
-		}
-		Collections.sort(d,Collections.reverseOrder());//for descending order arrangement
-		System.out.println("Sorted Array");
-		for(int j=0;j<a;j++)//display of the array as a sequence
-		{
-			System.out.println(d.get(j));
-		}
-		ss.close();
-		
-	}
-	}
